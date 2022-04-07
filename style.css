@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(135deg, #8052ec, #ba99c7);
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #111111;
+  border: none;
+  max-width: 400px;
+}
+
+.todos-container li {
+  background: #ffffff;
+  color: #111111;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
